@@ -6,7 +6,7 @@ public class Main {
         Hero[] heroes = {new Medic(), new Warrior(), new Magic()};
         for (int i = 0; i < heroes.length; i++) {
             applySuperAbilities(heroes[i]);
-            ((Hero) heroes[i]).applySuperAbility();
+            heroes[i].applySuperAbility();
         }
     }
 
